@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/output.css">
+  <title>Ovaicefast - Real Estate Agency</title>
+</head>
+<body>
+  <div class="container w-screen p-2 mx-auto max-w-6xl">
+    <div class="flex flex-row items-center justify-between mt-6">
+      <!-- Logo -->
+      <div class="flex flex-row items-center justify-center space-x-6">
+        <img src="dist/img/logo.svg" alt="">
+        <span class="text-2xl font-bold">OvaiceFast</span>
+        <div class="hidden lg:flex flex-row items-center justify-start relative bg-white rounded-full border-2 ml-8">
+          <select name="category" id="category" class="bg-white px-4 py-2 rounded-l-full border-l-2">
+            <option value="All categories">All categories</option>
+            <option value="Luxury">Luxury</option>
+            <option value="Lite">Lite</option>
+          </select>
+          <input type="search" placeholder="Try typing something" class="w-60 mr-12 p-2">
+          <img src="dist/img/search.png" alt="" class="absolute right-4">
+        </div>
+      </div>
+      <!-- Menu -->
+      <nav>
+        <ul class="flex flex-row items-center justify-end space-x-3">
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Rents</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">How it works</a></li>
+          <li class="bg-[#1F1F1F12] p-2 border-2 rounded-xl hover:bg-[#1F1F1F05] hover:cursor-pointer"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
